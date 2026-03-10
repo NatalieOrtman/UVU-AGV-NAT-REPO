@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Rover Rig.ma
-//Last modified: Fri, Mar 06, 2026 06:31:30 PM
+//Last modified: Fri, Mar 06, 2026 06:32:50 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,19 +10,19 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.7.4";
-fileInfo "UUID" "A71A21B8-404E-5890-B053-70998B0A4F9C";
+fileInfo "UUID" "985559FA-8845-61BF-7944-24A4AACDBA6E";
 createNode transform -s -n "persp";
 	rename -uid "5A0F6A92-C549-2EFB-CDB0-0CB91CEFC046";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 206.3601734035496 148.11643025957454 305.94153854365624 ;
-	setAttr ".r" -type "double3" -371.99999999933328 33.999999999999801 4.7955526787242588e-16 ;
+	setAttr ".t" -type "double3" 173.43588590552523 163.30216664571279 320.76296078131162 ;
+	setAttr ".r" -type "double3" -374.3999999993049 28.400000000000574 4.5196382674428117e-16 ;
 	setAttr ".rp" -type "double3" -3.1121771826292388e-12 4.9382720135326963e-13 0 ;
 	setAttr ".rpt" -type "double3" 1.0157885367108182e-12 -2.1171241215929377e-14 -2.3217316516744096e-12 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E7A0787B-0842-479D-6B96-3A828A968F74";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 377.27657329678141;
+	setAttr ".coi" 376.47669438309231;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
