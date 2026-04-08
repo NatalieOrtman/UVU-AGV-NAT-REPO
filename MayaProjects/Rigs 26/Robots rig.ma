@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Robots rig.ma
-//Last modified: Sun, Mar 29, 2026 04:44:21 PM
+//Last modified: Sun, Mar 29, 2026 04:53:20 PM
 //Codeset: UTF-8
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,17 +10,17 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Mac OS X 15.7.4";
-fileInfo "UUID" "8E7F9FF1-F24E-A784-3A20-B0B56EF62986";
+fileInfo "UUID" "4526A146-014C-9821-B429-889C35B9E361";
 createNode transform -s -n "persp";
 	rename -uid "CFFA1BB1-C747-CA87-7351-3981C093A8A9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 23.926098996854421 271.36336279047947 533.6533561506028 ;
-	setAttr ".r" -type "double3" -15.938352730274545 2.5999999999987105 2.4873689175987827e-16 ;
+	setAttr ".t" -type "double3" -34.156264765805879 277.88318668808984 658.50009909840003 ;
+	setAttr ".r" -type "double3" -13.538352730274649 -3.0000000000013416 -4.9764367233621822e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6240B19B-A345-775E-2A5E-5F8328957621";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 548.52305478917174;
+	setAttr ".coi" 671.2875425436074;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
